@@ -1,0 +1,28 @@
+.movie-card {
+  position: relative;
+  justify-content: space-around;
+  border: 1px solid rgb(247, 245, 245);
+  box-shadow: 2px 2px 2px 2px rgb(93, 93, 102);
+
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.movie-card img {
+  height: 100%;
+}
+
+.movie-title {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  bottom: 0%;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(255, 255, 255);
+  border: 1px rgb(243, 240, 240);
+  opacity: 80%;
+}
